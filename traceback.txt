@@ -1,0 +1,22 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 913, in script
+    
+Exception: Sayer 'M4' is not defined.
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 913, in script
+    
+  File "C:\RenPy\renpy\ast.py", line 678, in execute
+    who = eval_who(self.who, self.who_fast)
+  File "C:\RenPy\renpy\ast.py", line 576, in eval_who
+    raise Exception("Sayer '%s' is not defined." % who.encode("utf-8"))
+Exception: Sayer 'M4' is not defined.
+
+Windows-8-6.2.9200
+Ren'Py 7.3.5.606
+On Sale Idefinitely 1.0
+Thu Aug 20 18:09:16 2020
