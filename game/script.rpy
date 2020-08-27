@@ -1,4 +1,4 @@
-Adefine T = Character("Taro", who_color="#0000FF")
+define T = Character("Taro", who_color="#0000FF")
 define Y = Character ("Yui")
 define H = Character("Hikari")
 define S = Character("Sawako")
